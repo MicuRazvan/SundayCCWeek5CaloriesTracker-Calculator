@@ -23,7 +23,7 @@ The application saves each day's log as a `.csv` file in the `/days` directory. 
 *   **Daily Food Logging:** Create a new sheet for any day (defaults to the current date) and log food items with their calorie counts and quantities (grams, pieces, etc.).
 *   **Automatic Calculations:** The main table automatically calculates the total calories for each food item (`calories * quantity`) and provides a running grand total for the day at the bottom.
 *   **Built-in Calorie Calculator:**
-    *   **BMR Calculation:** Estimates Basal Metabolic Rate using the modern **Mifflin-St Jeor equation**, based on weight, height, age, and gender.
+    *   **BMR Calculation:** Estimates Basal Metabolic Rate using the **Mifflin-St Jeor equation**, based on weight, height, age, and gender.
     *   **TDEE Calculation:** Adjusts BMR for activity level to find Total Daily Energy Expenditure (TDEE).
     *   **Weight Loss Goals:** Calculates the required daily calorie intake for sustainable weight loss goals (0.5 kg/week or 1 kg/week).
 *   **Dynamic Food Database:**
@@ -47,9 +47,9 @@ The project is organized into several classes:
 
 ## Examples
 
-*I left multiple examples of saved day files in the `/days` directory.
-*I also provided a samples.csv with some type of foods already added. If you want to create a new one, modify the createSampleCsv method from CsvGenerator class
-*2 pictures with the main features:
+* I left multiple examples of saved day files in the `/days` directory.
+* I also provided a samples.csv with some type of foods already added. If you want to create a new one, modify the createSampleCsv method from CsvGenerator class
+* 2 pictures with the main features:
 <img width="798" height="660" alt="chart" src="https://github.com/user-attachments/assets/62abfb49-3ca9-4533-a866-e1ca4897b049" />
 <img width="1085" height="589" alt="UI" src="https://github.com/user-attachments/assets/534b7e97-c7a6-44db-be2d-268f7d901050" />
 
