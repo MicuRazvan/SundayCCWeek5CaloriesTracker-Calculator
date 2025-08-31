@@ -36,7 +36,7 @@ The application saves each day's log as a `.csv` file in the `/days` directory. 
 
 ## Project Structure
 
-The project is organized into several key classes:
+The project is organized into several classes:
 
 *   `Main` (or `CalorieTrackerApp`): The entry point that launches the application and handles the main menu.
 *   `MainWindow`: The primary UI for a single day, containing the food table and calculator panel.
