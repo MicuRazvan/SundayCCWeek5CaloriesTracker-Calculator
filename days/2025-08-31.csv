@@ -1,0 +1,13 @@
+# CALORIC NEEDS DATA
+Weight,155
+Height,195
+Age,25
+Gender,Man
+Activity Level,Moderately active (3–5 days/week)
+# FOOD DIARY
+Aliment,Calories,Quantity
+"food 1",1000,1.00
+"food 2",700,1.00
+"food 3",200,0.80
+"Grapes (100g)",69,1.00
+"Whole Wheat Flour (100g)",340,1.00
